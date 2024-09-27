@@ -1,0 +1,33 @@
+.toolbox {
+  width: 250px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-right: 2px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.toolbox-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toolbox-item:hover {
+  background-color: #e6f7ff;
+}
+
+.toolbox-item.dragging {
+  opacity: 0.5;
+}
+
+.component-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

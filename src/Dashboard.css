@@ -1,0 +1,73 @@
+/* Dashboard.css */
+.dashboard {
+  padding: 20px;
+    /* White background for cleanliness */
+  min-height: 50vh; /* Full height */
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #e2f3e5, #ffffff); /* Center content */
+}
+
+.dashboard-content {
+  display: flex; /* Flexbox layout for side-by-side content */
+  max-width: 1000px; /* Limit width */
+  width: 100%; /* Full width within limits */
+  gap: 20px; /* Space between the two columns */
+}
+
+.forum-container {
+  flex: 1; /* Allow forum to take up equal space */
+}
+
+.crop-info-container {
+  flex: 2; /* Crop info takes up more space */
+  background: #f9f9f9; /* Light gray for card effect */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Padding for content */
+}
+
+.dashboard-title {
+  text-align: center; /* Center the title */
+  color: #4CAF50; /* Green color for a natural feel */
+  margin-bottom: 20px; /* Space below title */
+}
+
+.crop-info {
+  display: flex;
+  align-items: center; /* Align items in the center */
+  gap: 20px; /* Space between image and text */
+}
+
+.dashboard-image {
+  width: 150px; /* Fixed width for image */
+  height: 150px; /* Fixed height for image */
+  border-radius: 20px; /* Curved image borders */
+  object-fit: cover; /* Cover the image properly */
+}
+
+.crop-details {
+  flex-grow: 1; /* Allow details to take available space */
+}
+
+h3 {
+  color: #333; /* Dark gray for headings */
+}
+
+ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+li {
+  margin: 5px 0; /* Space between list items */
+  padding: 8px;
+  background: #ffffff; /* Light green for list items */
+  border-radius: 10px; /* Rounded corners for list items */
+}
+
+.no-selection {
+  color: #3e3434; /* Gray color for no selection message */
+  text-align: center; /* Center the message */
+  font-size: 18px; /* Slightly larger text */
+}

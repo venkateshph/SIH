@@ -1,0 +1,27 @@
+.farmLevels {
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

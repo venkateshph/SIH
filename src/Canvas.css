@@ -1,0 +1,92 @@
+.canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border: 2px dashed #aaa;
+  background-size: 20px 20px; /* This defines the grid size */
+  background-image: linear-gradient(to right, #ddd 1px, transparent 1px),
+                    linear-gradient(to bottom, #ddd 1px, transparent 1px);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dropped-component {
+  position: absolute;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.dropped-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.remove-button {
+  /* Style can be removed or left as default */
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.canvas-over {
+  border-color: #87cefa; /* Highlight the canvas when dragging over it */
+}
+.canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border: 2px dashed #aaa;
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, #ddd 1px, transparent 1px),
+                    linear-gradient(to bottom, #ddd 1px, transparent 1px);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dropped-component {
+  position: absolute;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.dropped-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.remove-button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.canvas-over {
+  border-color: #87cefa;
+}
+
+/* Water particle styles */
+.water-particle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+/* Water button styles */
+.water-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #87ceeb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

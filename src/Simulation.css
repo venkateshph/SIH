@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  position: relative; /* Add relative positioning */
+}
+
+.toolbox {
+  width: 200px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+}
+
+.canvas {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; /* Ensure canvas is below inspector */
+}
+
+.inspector {
+  width: 250px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+  position: fixed; /* Fix position to the right */
+  right: 0;
+  top: 0;
+  height: 100%;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 2; /* Ensure inspector is above canvas */
+}

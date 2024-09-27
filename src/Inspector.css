@@ -1,0 +1,79 @@
+.inspector {
+  width: 250px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 50%;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 15;
+  overflow: auto;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1; /* Initial state */
+  transform: translateX(0); /* Initial state */
+}
+
+.inspector.hidden {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.inspector h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.inspector p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.inspector-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.inspector-close:hover {
+  color: red;
+}
+.inspector {
+  position: absolute; /* Make it positionable anywhere on the screen */
+  z-index: 100; /* Ensure it's on top of other elements */
+  height: 10px;
+}
+
+.resizable-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.inspector-content {
+  padding: 10px;
+}
+
+.close-button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close-button:hover {
+  color: red;
+}
+
+h3 {
+  margin-top: 0;
+}
