@@ -30,7 +30,7 @@ const Canvas = ({ components = [], onDrop, onRemove, onSelect, waterParticles, o
           onClick={() => onSelect(comp)}
         >
           <img
-            src={`/icons/${comp.type.toLowerCase()}.svg`}
+            src={`https://images.ctfassets.net/3s5io6mnxfqz/4TV7YTCO1DJuMhhn7RD1Ol/b5a6c12340e6529a86bc1b557ed2d8f8/AdobeStock_136921602.jpeg?fm=jpg&w=1200&fl=progressive`}
             alt={comp.type}
             className="dropped-icon"
           />
